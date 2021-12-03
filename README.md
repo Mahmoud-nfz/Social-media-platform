@@ -3,7 +3,9 @@
 A social media "app" using Reactjs
 
 ![Screenshot 2021-12-03 at 19-38-38 JEI Assignment](https://user-images.githubusercontent.com/65515933/144657498-b2891953-ef92-45f1-8a4d-1361e29308a1.png)
+
 ![Screenshot 2021-12-03 at 19-38-46 JEI Assignment](https://user-images.githubusercontent.com/65515933/144657480-42b2ca1a-184b-4773-8d24-47e1f3c7f797.png)
+
 ![Screenshot 2021-12-03 at 19-38-53 JEI Assignment](https://user-images.githubusercontent.com/65515933/144657460-51bfb6ff-47d4-43c0-ae05-efa81f18692b.png)
 
 
