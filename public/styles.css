@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+
+header {
+    text-align: center;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-color: #08515e;
+  margin: auto 10px;
+  padding: 4px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  display: inline-block;
+  padding-top: 0px;
+}
+
+footer {
+  position:absolute;
+  bottom: 0;
+  text-align:center;
+  bottom: 0;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+.note , .post{
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+}
+.note{
+  text-align: center;
+    display: inline-block;
+    width: 15%;
+    position: absolute;
+    left : 1%
+}
+.post{
+    width: 100%;
+}
+.posts{
+  text-align: center;
+  position: absolute;
+  right: 19.5%;
+    display: inline-block;
+    width: 63%;
+    height: 1em;
+}
+.userlist {
+  position: absolute;
+  right: 1%;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 1% 0% 1.5% 3.5%;
+    margin: 16px;
+    width: 15%;
+    display: inline-block;
+}
+.userlist h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+}
+.note h1 {
+  font-size: 1.5em;
+  margin-bottom: 6px;
+}
+.post h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+#insta{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.userlist ul {
+    list-style-image: url('user_logo.png');
+    text-align: left;
+}
+.userlist li {
+    padding: 1px;
+}
+.userlist a{
+    /*
+    border: solid 4px #ff0000;
+    background:#000000;
+    */
+    text-decoration: double;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /* font-family determines the web-safe font used for the link name */
+    color:#4286c5; /* color controls the color of the text in the links widget */
+    font-size: 14px; /* font-size determines the size of the text in the links widget */
+    border-radius: 8px; /* border-radius helps to create rounded corners, for a more button-like look.  The larger the number, the more rounded the corners.  If you don’t want rounded corners, change the border-radius to 0px */
+    }
+.userlist a:hover{
+    padding: 5px;
+    background:#0a1b33; /* this controls the background color of the link when you hover over it */
+    color: #ccc;
+}
+.posts ul {
+    list-style-type: none;
+}
+.posts p {
+    color : black ;
+}
+.posts a {
+    text-decoration: double;
+}
+.styled {
+    margin: 0 15%;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 60px;
+    shape-outside: none;
+    box-shadow: none;
+    background-color: rgb(30, 105, 124);
+}
+
+.styled:hover {
+    background-color: rgb(11, 43, 70);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+#inputTitle{
+
+  border-radius: 10px;
+  height: 30px;
+  box-shadow: none;
+  text-shadow:none;
+  border-style: hidden;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+
+}
+
+#inputParagraph{
+  margin: 16px 20px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: none;
+  text-shadow:none;
+  border-style: hidden;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+
+}
+.inputTitleDiv{
+  display:block;
+  bottom: 160px;
+}
+.inputParagraphDiv{
+  display: inline-block;
+}
